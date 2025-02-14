@@ -1,0 +1,282 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: "Roboto", serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+h6 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Secciones */
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries */
+
+/* Pantallas grandes (computadoras de escritorio) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  h6 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  section {
+    padding: 60px 40px;
+  }
+}
+
+/* Computadoras portátiles (laptops) */
+@media (max-width: 1199px) and (min-width: 992px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.875rem;
+  }
+
+  h4 {
+    font-size: 1.625rem;
+  }
+
+  h5 {
+    font-size: 1.375rem;
+  }
+
+  h6 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-size: 1.0625rem;
+  }
+
+  section {
+    padding: 50px 30px;
+  }
+}
+
+/* Tablets en orientación horizontal */
+@media (max-width: 991px) and (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+}
+
+/* Tablets en orientación vertical o dispositivos pequeños */
+@media (max-width: 767px) and (min-width: 576px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 0.9375rem;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+}
+
+/* Teléfonos grandes */
+@media (max-width: 575px) and (min-width: 360px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+  }
+
+  h6 {
+    font-size: 0.75rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+}
+
+/* Teléfonos pequeños (mínimo 320px) */
+@media (max-width: 359px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.875rem;
+  }
+
+  h5 {
+    font-size: 0.75rem;
+  }
+
+  h6 {
+    font-size: 0.625rem;
+  }
+
+  p {
+    font-size: 0.8125rem;
+  }
+
+  section {
+    padding: 15px 5px;
+  }
+}
