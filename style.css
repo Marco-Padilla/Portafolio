@@ -467,7 +467,7 @@ section {
 
 /* Seccion Contacto */
 #cta {
-  background-image: url('../img/cta.jpg');
+  background-image: url("../img/cta.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #333;
