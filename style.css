@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-image: url('img/back.svg');
+  background-image: url("img/back.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -215,16 +215,16 @@ section {
 
 @keyframes slider1 {
   0% {
-    background-image: url("/img/p1-1.png");
+    background-image: url("img/p1-1.png");
   }
   33% {
-    background-image: url("/img/p1-2.png");
+    background-image: url("img/p1-2.png");
   }
   66% {
-    background-image: url("/img/p1-3.png");
+    background-image: url("img/p1-3.png");
   }
   100% {
-    background-image: url("/img/p1-4.png");
+    background-image: url("img/p1-4.png");
   }
 }
 
@@ -235,16 +235,16 @@ section {
 
 @keyframes slider2 {
   0% {
-    background-image: url("/img/p2-1.png");
+    background-image: url("img/p2-1.png");
   }
   33% {
-    background-image: url("/img/p2-2.png");
+    background-image: url("img/p2-2.png");
   }
   66% {
-    background-image: url("/img/p2-3.png");
+    background-image: url("img/p2-3.png");
   }
   100% {
-    background-image: url("/img/p2-4.png");
+    background-image: url("img/p2-4.png");
   }
 }
 
@@ -255,16 +255,16 @@ section {
 
 @keyframes slider3 {
   0% {
-    background-image: url("/img/p3-1.png");
+    background-image: url("img/p3-1.png");
   }
   33% {
-    background-image: url("/img/p3-2.png");
+    background-image: url("img/p3-2.png");
   }
   66% {
-    background-image: url("/img/p3-3.png");
+    background-image: url("img/p3-3.png");
   }
   100% {
-    background-image: url("/img/p3-4.png");
+    background-image: url("img/p3-4.png");
   }
 }
 
@@ -275,16 +275,16 @@ section {
 
 @keyframes slider4 {
   0% {
-    background-image: url("/img/p4-1.png");
+    background-image: url("img/p4-1.png");
   }
   33% {
-    background-image: url("/img/p4-2.png");
+    background-image: url("img/p4-2.png");
   }
   66% {
-    background-image: url("/img/p4-3.png");
+    background-image: url("img/p4-3.png");
   }
   100% {
-    background-image: url("/img/p4-4.png");
+    background-image: url("img/p4-4.png");
   }
 }
 
@@ -295,16 +295,16 @@ section {
 
 @keyframes slider5 {
   0% {
-    background-image: url("/img/p5-1.png");
+    background-image: url("img/p5-1.png");
   }
   33% {
-    background-image: url("/img/p5-2.png");
+    background-image: url("img/p5-2.png");
   }
   66% {
-    background-image: url("/img/p5-3.png");
+    background-image: url("img/p5-3.png");
   }
   100% {
-    background-image: url("/img/p5-4.png");
+    background-image: url("img/p5-4.png");
   }
 }
 
@@ -467,7 +467,7 @@ section {
 
 /* Seccion Contacto */
 #cta {
-  background-image: url("/img/cta.jpg");
+  background-image: url("img/cta.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #333;
