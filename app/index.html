@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de Memoria</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="brand">
+          <h4>Marcos Padilla</h4>
+          <h6>Cloud Engineer en formación | Azure • Linux • Automatización</h6>
+        </div>
+
+        <ul>
+          <div class="cta-buttons">
+            <a href="/index.html" class="cta-btn email">Volver</a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container1">
+      <div class="game-board" id="gameBoard"></div>
+      <div id="gameInfo">
+        <div id="timer">Tiempo: <span id="time">60</span>s</div>
+      </div>
+      <div id="gameInfo">
+        <div id="moves">Movimientos: <span id="moveCount">0</span></div>
+        <button id="startStopBtn">Iniciar</button>
+        <button id="resetBtn">Reiniciar</button>
+      </div>
+    </div>
+    <div class="container2">
+      <img id="logo1" src="img/logo.png" style="display: block" alt="logo" />
+      <img id="logo2" src="img/gana.png" style="display: none" alt="logo" />
+      <img id="logo3" src="img/perder.png" style="display: none" alt="logo" />
+      <img src="img/pair1.png" style="display: none" alt="logo" />
+      <img src="img/pair2.png" style="display: none" alt="logo" />
+      <img src="img/pair3.png" style="display: none" alt="logo" />
+      <img src="img/pair4.png" style="display: none" alt="logo" />
+      <img src="img/pair5.png" style="display: none" alt="logo" />
+      <img src="img/pair6.png" style="display: none" alt="logo" />
+    </div>
+
+    <!-- Sonidos -->
+    <audio id="flip-sound" src="music/flip.wav"></audio>
+    <audio id="match-sound" src="music/match.wav"></audio>
+    <audio id="win-sound" src="music/win.wav"></audio>
+    <audio id="loose-sound" src="music/loose.wav"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcos Padilla - Portafolio</title>
+    <link rel="icon" href="/Logo.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/responsive.css" />
+    <!-- Enlaces para las tipografías de la página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Pridi:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navegador de la página, con enlace ID a cta -->
+    <header>
+      <nav>
+        <div class="brand">
+          <h4>Marcos Padilla</h4>
+          <h6>Cloud Engineer en formación | Azure • Linux • Automatización</h6>
+        </div>
+
+        <ul>
+          <div class="cta-buttons">
+            <a href="/index.html" class="cta-btn email">Volver</a>
+          </div>
+
+          <li><a href="#cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Cuerpo Main de la página Web. -->
+    <main>
+      <section class="project">
+        <h2>Azure Auto Deploy Lab</h2>
+
+        <p>
+          Implementación completa de infraestructura cloud en Microsoft Azure
+          utilizando una máquina virtual Linux Ubuntu configurada como servidor
+          web público. El proyecto incluye automatización de despliegue desde
+          GitHub mediante scripts Bash y tareas programadas, simulando un flujo
+          CI/CD real.
+        </p>
+
+        <h3>Arquitectura del Proyecto</h3>
+        <ul>
+          <li>Azure Virtual Machine (Ubuntu Server)</li>
+          <li>Acceso seguro mediante SSH</li>
+          <li>Servidor web Nginx</li>
+          <li>Repositorio GitHub integrado</li>
+          <li>Auto Deploy cada 5 minutos</li>
+        </ul>
+
+        <!-- Paso 1 -->
+        <h3>1. Creación de la Máquina Virtual</h3>
+        <p>
+          Configuración inicial de infraestructura en Azure seleccionando
+          región, sistema operativo Linux y autenticación mediante clave SSH.
+        </p>
+        <img src="/img/vm.png" alt="Creación VM Azure" />
+
+        <!-- Paso 2 -->
+        <h3>2. Configuración de Red y Seguridad</h3>
+        <p>
+          Apertura de puertos necesarios mediante Network Security Group para
+          permitir acceso SSH y tráfico web HTTP.
+        </p>
+        <img src="/img/red.png" alt="Reglas de seguridad Azure" />
+
+        <!-- Paso 3 -->
+        <h3>3. Conexión SSH desde Terminal</h3>
+        <p>
+          Administración remota del servidor Linux mediante conexión segura SSH
+          desde entorno local Windows.
+        </p>
+        <img src="/img/ssh.png" alt="Conexion SSH" />
+
+        <!-- Paso 4 -->
+        <h3>4. Instalación y Configuración de Nginx</h3>
+        <p>
+          Instalación del servidor web Nginx y validación del servicio activo
+          dentro del sistema operativo Ubuntu.
+        </p>
+        <img src="/img/nginx.png" alt="Nginx activo" />
+
+        <!-- Paso 5 -->
+        <h3>5. Integración con GitHub</h3>
+        <p>
+          El código fuente es gestionado mediante GitHub, permitiendo control de
+          versiones y despliegue automatizado.
+        </p>
+        <img src="/img/git.png" alt="Repositorio GitHub" />
+
+        <!-- Paso 6 -->
+        <h3>6. Automatización de Deploy</h3>
+        <p>
+          Script Bash encargado de actualizar automáticamente el servidor
+          obteniendo cambios desde el repositorio remoto.
+        </p>
+        <img src="/img/deploy.png" alt="Script deploy" />
+
+        <!-- Paso 7 -->
+        <h3>7. Aplicación en Producción</h3>
+        <p>
+          Aplicación web accesible públicamente desde Internet mediante IP
+          pública asignada por Azure.
+        </p>
+
+        <p>
+          <strong>Rol:</strong> Diseño, implementación y automatización completa
+          de la infraestructura.
+        </p>
+        <br />
+      </section>
+
+      <!-- Seccion de contacto, en ella encapsulo los datos pertinentes para mi ubicacion. -->
+      <section id="cta">
+        <br />
+        <div class="cta-container">
+          <h2 class="es">¿Listo para trabajar conmigo?</h2>
+          <p class="es">
+            Contáctame a través de correo o WhatsApp para discutir tus ideas y
+            proyectos.
+          </p>
+          <div class="cta-buttons">
+            <!-- Botón de correo -->
+            <a href="mailto:marcospc094@gmail.com" class="cta-btn email es">
+              📧 Envíame un correo
+            </a>
+
+            <!-- Botón de WhatsApp -->
+            <a
+              href="https://wa.me/+50664296184?text=Hola%20Marcos,%20estoy%20interesado%20en%20tus%20servicios."
+              target="_blank"
+              class="cta-btn whatsapp es"
+            >
+              📱 Escríbeme en WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+    <script src="language.js"></script>
+  </body>
+</html>
